@@ -4,7 +4,7 @@
 #include <nan.h>
 
 extern "C" {
-#include "yescrypt-0.5/yescrypt.h"
+#include "tribus/tribus.h"
 }
 
 #define THROW_ERROR_EXCEPTION(x) Nan::ThrowError(x)
@@ -26,7 +26,7 @@ NAN_METHOD(hash) {
     char *input = Buffer::Data(target);
     char *output = (char*) malloc(sizeof(char) * 32);
 
-    yescrypt_hash(input, output);
+    tribus_hash(input, output);
 
     info.GetReturnValue().Set(Nan::NewBuffer(output, 32).ToLocalChecked());
 }
@@ -36,5 +36,5 @@ NAN_MODULE_INIT(init)
     NAN_EXPORT(target, hash);
 }
 
-NODE_MODULE(bitzeny_yescrypt, init);
+NODE_MODULE(idolcoin_tribus, init);
 
