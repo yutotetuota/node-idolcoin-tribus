@@ -1,1 +1,1 @@
-module.exports = require('bindings')('bitzeny_yescrypt')
+module.exports = require('bindings')('idolcoin_tribus')
