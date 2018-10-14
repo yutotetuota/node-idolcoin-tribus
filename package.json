@@ -1,13 +1,14 @@
 {
-  "name": "bitzeny-yescrypt",
+  "name": "idolcoin-tribus",
   "version": "1.0.0",
-  "description": "BitZeny yescrypt",
-  "main": "bitzeny_yescrypt",
+  "description": "IDOLCOIN tribus",
+  "main": "idolcoin_tribus",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "install": "node-gyp rebuild"
   },
   "author": "zenywallet",
+            "yutotetuota",
   "license": "MIT",
   "gypfile": true,
   "dependencies": {
