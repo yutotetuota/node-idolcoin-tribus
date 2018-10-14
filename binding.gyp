@@ -1,10 +1,10 @@
 {
     "targets": [
         {
-            "target_name": "bitzeny_yescrypt",
+            "target_name": "idolcoin_tribus",
             "sources": [               
-                "bitzeny_yescrypt.cc",
-                "yescrypt-0.5/yescrypt.c",
+                "idolcoin_tribus.cc",
+                "tribus/tribus.c",
             ],
             "include_dirs": [
                 "<!(node -e \"require('nan')\")"
