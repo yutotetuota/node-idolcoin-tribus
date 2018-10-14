@@ -8,7 +8,6 @@
     "install": "node-gyp rebuild"
   },
   "author": "zenywallet",
-            "yutotetuota",
   "license": "MIT",
   "gypfile": true,
   "dependencies": {
